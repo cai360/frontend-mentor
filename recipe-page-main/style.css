@@ -1,0 +1,154 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --White: hsl(0, 0%, 100%);
+    --Stone100: hsl(30, 54%, 90%);
+    --Stone150: hsl(30, 18%, 87%);
+    --Stone600: hsl(30, 10%, 34%);
+    --Stone900: hsl(24, 5%, 18%);
+    --Brown800: hsl(14, 45%, 36%);
+    --Rose800: hsl(332, 51%, 32%);
+    --Rose50: hsl(330, 100%, 98%);
+  }
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+/* 
+  @font-face {
+    font-family: Outfit;
+    src: url('./assets/fonts/outfit/Outfit-VariableFont_wght.ttf');
+    font-weight: 400;
+  }
+  @font-face {
+  font-family: YongSerif;
+  src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf');
+  font-weight: 400, 600, 700;
+} */
+
+  body{
+    background-color: var(--Stone100);
+    font-family: 'Outfit', sans-serif;
+    color: var(--Brown800);
+     font-size: 16px;
+  }
+
+  .content-container {
+    background-color: var(--White);
+    border-radius: 20px;
+    max-width: 736px;
+    padding: 40px;
+    box-sizing: border-box;
+    margin: 120px auto;
+  }
+
+  .img-container{
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 1.6rem;
+  }
+
+  .img-container img{ 
+    width:100%;
+    display: block;
+    border-radius: 12px;
+  }
+
+  h1, h2, h3 {
+  font-family: 'Young Serif', serif;
+  font-weight: 100;
+  margin-bottom: 0.7rem;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  .title{
+    margin-bottom: 1.7rem;
+  }
+
+  .title h1 {
+    color: var(--Stone900);
+    font-size: 40px;
+
+  }
+
+  .title p{
+    color: var(--Stone600);
+    line-height: 1.2rem;
+  }
+
+  .preparation-time{
+    max-height: 180px;
+    border-radius: 12px;
+    padding: 1.15rem 1.35rem; 
+    background-color: hsl(330, 100%, 98%);
+  }
+
+  .preparation-time h3{
+    font-family: 'outfit';
+    margin-bottom: 0.5rem;
+    color: var(--Rose800);
+    font-weight: 600;
+    font-size: 20px;
+  }
+
+
+  ul {
+    list-style-position: outside;
+    list-style-type: square;
+    padding-left: 1rem;
+  }
+
+  li{
+    
+    color: var(--Stone600);
+    line-height: 1.6rem;
+    padding-left: 1rem; 
+  }
+
+  ul li::marker {
+    color: var(--Rose800); 
+    font-size: xx-small;
+  }
+
+  section {
+    margin-bottom: 1.3rem;
+  }
+
+    hr {
+    margin-bottom: 1.3rem;
+  }
+
+  .Ingredients ul li::marker {
+    color: var(--Brown800);
+  }
+
+  ol{
+    list-style-position: outside;
+    padding-left: 1.2rem;
+  }
+
+  ol li{
+    line-height: 1.5rem;
+  }
+
+  .Instructions ol li::marker{
+    color: var(--Brown800);
+    font-weight: 700;
+  }
+
+
+
