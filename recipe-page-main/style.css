@@ -206,16 +206,20 @@ table td{
   .content-container {
     border-radius: 0;
     width: 100%;
-    padding: 40px 32px;
+    padding: 3rem 32px;
     margin: 0;
   }
 
   .img-container {
     position: relative;
-    margin-top: -30px;
+    margin-top: -60px;
     left: 50%;
     width: 100vw;
     margin-left: -50vw;
+  }
+
+  .img-container img{
+    border-radius: 0;
   }
 
 
