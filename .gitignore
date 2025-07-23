@@ -1,0 +1,4 @@
+.DS_Store
+# IDE 設定檔
+.vscode/
+*.suo
