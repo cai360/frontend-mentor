@@ -15,9 +15,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 ## Overview
 
 ### Screenshot
-
-![](./recipe-page.gif)
-g
+![](./gif/desktop.gif)
+![](./gif/mobile.gif)
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/cai360/frontend-mentor/tree/main/recipe-page-main)
